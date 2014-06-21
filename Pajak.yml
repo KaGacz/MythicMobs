@@ -1,0 +1,107 @@
+PajakBagienny:
+  Mobtype: spider
+  Display: 'Pajak &aBagienny'
+  Health: 18
+  Damage: 6
+  Drops:
+  - heroesexp 25 1
+  - money 7 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
+MlodyPajakBagienny:
+  Mobtype: cavespider
+  Display: 'Mlody Pajak &aBagienny'
+  Health: 5
+  Damage: 5
+  Drops:
+  - heroesexp 5 1
+  - money 3 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
+DuzyPajakBagienny:
+  Mobtype: spider
+  Display: 'Duzy Pajak &aBagienny'
+  Skills:
+  - summon $MlodyPajakBagienny:5:1 =0 0.5
+  Health: 30
+  Damage: 7
+  Drops:
+  - heroesexp 30 1
+  - money 10 1
+  Options:
+    MovementSpeed: 0.1
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
+MlodyPajakPustynny:
+  Mobtype: cavespider
+  Display: 'Mlody Pajak &aPustynny'
+  Health: 3
+  Damage: 7
+  Drops:
+  - heroesexp 10
+  - money 3
+  Options:
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
+PajakPustynny:
+  Mobtype: spider
+  Display: 'Pajak &aPustynny'
+  Skills:
+  - skill SlabyPajeczyJad >0 0.3
+  Health: 13
+  Damage: 10
+  Drops:
+  - heroesexp 30 1
+  - money 7 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
+MlodyPajakJaskiniowy:
+  Mobtype: cavespider
+  Display: 'Mlody Pajak &aJaskiniowy'
+  Skills:
+  - skill SlabyPajeczyJad >0 1
+  Health: 4
+  Damage: 3
+  Drops:
+  - money 3 1
+  - heroesexp 7 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
+PajakJaskiniowy:
+  Mobtype: cavespider
+  Display: 'Pajak &aJaskiniowy'
+  Skills:
+  - skill SilnyPajeczyJad >0 1
+  Health: 16
+  Damage: 6
+  Drops:
+  - money 7 1
+  - heroesexp 33 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
+CzarnaWdowa:
+  Mobtype: spider
+  Display: '&4Czarna Wdowa'
+  Skills:
+  - skill SilnyPajeczyJad >0 1
+  Health: 70
+  Damage: 15
+  Drops:
+  - money 100 1
+  - heroesexp 150 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: false
