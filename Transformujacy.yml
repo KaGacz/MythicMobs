@@ -1,0 +1,53 @@
+Nietoperz:
+  Mobtype: bat
+  Display: 'Nietoperz'
+  Damage: 0
+  Health: 10
+  Skills:
+  - skill Wampir ~onDamaged 1
+  Options:
+    AlwaysShowName: false
+    PreventOtherDrops: true
+Wampir:
+  Mobtype: zombie
+  Display: 'Wampir'
+  Damage: 8
+  Health: 40
+  Equipment:
+  - GoblinieMieso:4
+  Skills:
+  - skill KradziezZycia <35 1
+  Drops:
+  - heroesexp 60
+  - money 20
+  Options:
+    PreventOtherDrops: true
+    AlwaysShowName: false
+    Disguise: player:Wampir
+Czlowiek:
+  Mobtype: villager
+  Damage: 0
+  Health: 20
+  Skills:
+  - skill Wilkolak >0 1 ~onTimer:50
+  Drops:
+  - heroesexp 1
+  - money 1
+  Options:
+    AlwaysShowName: false
+    Disguise: player:Czlowiek
+Wilkolak:
+  Mobtype: zombie
+  Display: 'Wiklolak'
+  Damage: 8
+  Health: 50
+  Equipment:
+  - KR100:3
+  Drops:
+  - heroesexp 40 1
+  - money 15 1
+  Options:
+    PreventOtherDrops: true
+    AlwaysShowName: false
+    MovementSpeed: 0.3
+    Disguise: wolf
