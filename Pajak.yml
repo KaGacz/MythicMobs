@@ -26,7 +26,7 @@ DuzyPajakBagienny:
   Mobtype: spider
   Display: 'Duzy Pajak &aBagienny'
   Skills:
-  - summon $MlodyPajakBagienny:5:1 =0 0.5
+  - summon $MlodyPajakBagienny:5:1 ~onDeath 0.5
   Health: 30
   Damage: 7
   Drops:
