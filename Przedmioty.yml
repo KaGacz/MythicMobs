@@ -1,0 +1,77 @@
+ZelaznyHelm:
+  Id: 306
+  Data: 0
+  Display: '&3Zelazny Helm'
+  
+ZelaznaZbroja:
+  Id: 307
+  Data: 0
+  Display: '&3Zelazny Zbroja'
+  
+DrewnianyMiecz:
+  Id: 268
+  Data: 0
+  Display: '&3Drewniany Miecz'
+  
+WyszczerbionyMiecz:
+  Id: 267
+  Data: 0
+  Display: 'Wyszczerbiony Miecz'
+  Lore:
+  - 'Wyszczerbiony miecz Goblina'
+  
+ZardzewialySztylet:
+  Id: 262
+  Data: 0
+  Display: 'Zardzewiały Sztylet'
+  Lore:
+  - 'Stary sztylet pokryty rudym osadem'
+  - DAMAGE_ALL:4
+
+StaryLuk:
+  Id: 261
+  Data: 0
+  Display: 'Stary Łuk'
+  Lore:
+  - 'Stary, spruchniały łuk.'
+  
+GoblinieMieso:
+  Id: 367
+  Data: 0
+  Display: 'Goblinie Mięso'
+  Lore:
+  - 'Ten kawałek śmierdzącego mięsa'
+  - 'nie wygląda na zbyt smaczny...'
+
+GoblinskiTopor:
+  Id: 275
+  Data: 0
+  Display: 'Gobliński Topór'
+  
+SkorzanaZbroja:
+  Id: 299
+  Display: 'Skórzana Zbroja'
+  
+SkorzaneSpodnie:
+  Id: 300
+  Display: 'Skórzane Spodnie'
+  
+SkorzaneButy:
+  Id: 301
+  Display: 'SkórzaneButy'
+  
+SkorzanaCzapka:
+  Id: 298
+  Display: 'Skórzana Czapka'
+
+GlowaKrowy:
+  Id: 397
+  Data: 3
+  Display: 'Glowa Krowy'
+  Options:
+    Player: viv0
+KR100:
+  Id: 298
+  Display: 'Knockback resistance 100%'
+  Options:
+    KnockbackResistance: 1
