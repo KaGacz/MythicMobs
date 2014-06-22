@@ -1,0 +1,47 @@
+SlabyPajeczyJad:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 2
+  Skills:
+  - potion 0:POISON:100:1 >0 1
+SilnyPajeczyJad:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 2
+  Skills:
+  - potion 0:POISON:100:3 >0 1
+RzutKamieniem:
+  Cooldown: 3
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - shootprojectile snowball:4:1:20 >0 1
+Wyklucie:
+  Cooldown: 0
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - summon $MlodyPajakBagienny:5:1 =0 1
+Wampir:
+  Cooldown: 0
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - effect boss sound mob.endermen.portal 2.0 0.5 >0 1
+  - summon $Wampir:1:1 >0 1
+  - suicide >0 1
+Wilkolak:
+  Cooldown: 0
+  Conditions:
+  - playerwithin 30
+  - worldtime 13801-22200
+  Skills:
+  - summon $Wilkolak:1:1 >0 1
+  - suicide >0 1
+KradziezZycia:
+  Cooldown: 8
+  Conditions:
+  - playerwithin 2
+  Skills:
+  - damage 0:5:true >0 1
+  - healself 5 >0 1
