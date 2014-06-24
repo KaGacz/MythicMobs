@@ -1,0 +1,187 @@
+GoblinSzermierz:
+  Mobtype: babyzombie
+  Display: 'Goblin - &aSzermierz'
+  Health: 20
+  Damage: 5
+  Equipment:
+  - WyszczerbionyMiecz:0
+  Drops:
+  - GoblinieMieso 2 0.2
+  - GoblinieMieso 1 0.7
+  - heroesexp 30 1
+  - money 7 1
+  Options:
+    MovementSpeed: 0.2
+    FollowRange: 10
+    AlwaysShowName: false
+    PreventOtherDrops: true
+  
+GoblinSkrytobojca:
+  Mobtype: zombie
+  Display: 'Goblin - &aSkrytobojca'
+  Health: 18
+  Damage: 6
+  Equipment:
+  - ZardzewialySztylet:0
+  Drops:
+  - heroesexp 30 1
+  - money 7 1
+  - GoblinieMieso 2 0.2
+  - GoblinieMieso 1 0.7
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    FollowRange: 10
+    AlwaysShowName: false
+  
+GoblinLucznik:
+  Mobtype: skeleton
+  Display: 'Goblin - &aLucznik'
+  Health: 20
+  Damage: 4
+  Equipment:
+  - StaryLuk:0
+  - StaryLuk:4
+  Drops:
+  - heroesexp 30 1
+  - money 7 1
+  - GoblinieMieso 2 0.2
+  - GoblinieMieso 1 0.7
+  Options:
+    MovementSpeed: 0.2
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    FollowRange: 10
+    Disguise: babyzombie
+  
+GoblinJezdziec:
+  Riding: Warg
+  Mobtype: babyzombie
+  Display: 'Goblin - &aJezdziec'
+  Health: 21
+  Skills:
+  - dismount <10 0.7
+  Damage: 5
+  Equipment:
+  - WyszczerbionyMiecz:0
+  - SkorzanaZbroja:3
+  Drops:
+  - heroesexp 30 1
+  - money 9 1
+  - GoblinieMieso 2 0.2
+  - GoblinieMieso 1 0.7
+  Options:
+    MovementSpeed: 0.2
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: true
+  
+GoblinWojownik:
+  Mobtype: babyzombie
+  Display: 'Goblin - &aWojownik'
+  Health: 25
+  Damage: 5
+  Equipment:
+  - GoblinskiTopor:0
+  - SkorzanaZbroja:3
+  - SkorzaneSpodnie:2
+  - SkorzaneButy:1
+  - SkorzanaCzapka:4
+  Drops:
+  - heroesexp 30 1
+  - money 7 1
+  - GoblinieMieso 2 0.2
+  - GoblinieMieso 1 0.7
+  Options:
+    MovementSpeed: 0.2
+    AlwaysShowName: false
+    FollowRange: 10
+    PreventOtherDrops: true
+Warg:
+  Mobtype: zombie
+  Display: 'Warg'
+  Health: 15
+  Damage: 4
+  Equipment:
+  - GoblinieMieso:4
+  Drops:
+  - heroesexp 20 1
+  - money 3 1
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.35
+    Disguise: wolf
+  Skills:
+  - ejectpassenger <10 0.7
+GoblinMiotacz:
+  Mobtype: babyzombie
+  Display: 'Goblin - &aMiotacz'
+  Health: 20
+  Damage: 5
+  Skills:
+  - skill RzutKamieniem ~onTimer:3
+  Equipment:
+  - GoblinieMieso:4
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+GoblinLider:
+  Riding: Tytan
+  Mobtype: skeleton
+  Display: '&6&l[BOSS] &rGoblin - &aLider'
+  Health: 300
+  Damage: 5
+  Equipment:
+  - HelmKolczy:4
+  - ZbrojaKolcza:3
+  - SpodnieKolcze:2
+  - ButyKolcze:1
+  - StaryLuk:0
+  Skills:
+  - skill LiderMiecz ~onDamaged 1
+  - skill PrzywolanieGoblinObronca <250 1
+  - skill PrzywolanieGoblinow ~onTimer:1000 1
+  Options:
+    MovementSpeed: 0.25
+    Disguise: babyzombie
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+GoblinObronca:
+  Mobtype: babyzombie
+  Display: 'Goblin - &aObronca'
+  Health: 30
+  Damage: 3
+  Equipment:
+  - ZelaznyHelm:4
+  - ZelaznaZbroja:3
+  - SkorzaneSpodnie:2
+  - SkorzaneButy:1
+  - DrewnianyMiecz:0
+  Skills:
+  - skill OchronaLidera >0 1
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+Tytan:
+  Mobtype: zombie
+  Display: 'Tytan'
+  Health: 100
+  Damage: 3
+  Equipment:
+  - GoblinieMieso:4
+  Options:
+    KnockbackResistance: 1
+    Disguise: irongolem
+    PreventOtherDrops: true
+Test:
+  Mobtype: zombie
+  Display: '&lObiekt Testowy'
+  Health: 100
+  Damage: 5
+  Equipment:
+  - GoblinieMieso:4
+  Skills:
+  - skill Ogien ~onDamaged 1
+  Options:
+    MovementSpeed: 0.2
+    KnockbackResistance: 1

@@ -1,0 +1,163 @@
+SlabyPajeczyJad:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 2
+  Skills:
+  - potion 0:POISON:100:1 >0 1
+SilnyPajeczyJad:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 2
+  Skills:
+  - potion 0:POISON:100:3 >0 1
+RzutKamieniem:
+  Cooldown: 3
+  Conditions:
+  - targetwithin 10
+  - targetdistance 5-10
+  - targetinlineofsight true
+  Skills:
+  - potionself SLOW:300:7 >0 1
+  - delay 3
+  - shootprojectile snowball:4:1:20 >0 1
+  - effect boss sound mob.ghast.fireball:1:1 >0 1
+Wyklucie:
+  Cooldown: 0
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - summon $MlodyPajakBagienny:5:1 =0 1
+Wampir:
+  Cooldown: 0
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - effect boss sound mob.endermen.portal 2.0 0.5 >0 1
+  - summon $Wampir:1:1 >0 1
+  - suicide >0 1
+Wilkolak:
+  Cooldown: 0
+  Conditions:
+  - playerwithin 30
+  - worldtime 13801-22200
+  Skills:
+  - summon $Wilkolak:1:1 >0 1
+  - suicide >0 1
+KradziezZycia:
+  Cooldown: 8
+  Conditions:
+  - playerwithin 2
+  Skills:
+  - damage 0:5:true >0 1
+  - healself 5 >0 1
+PrzywolanieGoblinObronca:
+  Cooldown: 60
+  Conditions:
+  - offgcd true
+  - playerwithin 20
+  Skills:
+  - msg 30:'Gobliny chronia $boss &runiemozliwiajac zadawanie mu obrazen! Wyeliminuj [Goblin - &aObronca&r] aby zdjac ochrone.' >0 1
+  - summon $GoblinObronca:5:4 >0 1
+OchronaLidera:
+  Cooldown: 1
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - potionmobs 10:DAMAGE_RESISTANCE:100:15 GoblinLider >0 1
+LiderMiecz:
+  Conditions:
+  - wearing StaryLuk:0
+  - playerwithin 2
+  Skills:
+  - equip MieczLideraGoblinow:0 >0 1
+FusRoDach:
+  Cooldown: 30
+  Conditions:
+  - playerwithin 20
+  Skills:
+    - msg 40:'$boss; &5&lFus Ro Dach!' >0 1
+    - throw 20:20:10 >0 1
+SGoblinWojownik:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinWojownik:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinLucznik:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinLucznik:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinSkrytobojca:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinSkrytobojca:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinJezdziec:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinJezdziec:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinSzermierz:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinWojownik:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+PrzywolanieGoblinow:
+  Cooldown: 40
+  Conditions:
+  - offgcd true
+  - playerwithin 20
+  Skills:
+  - randomskill SGoblinWojownik,SGoblinSzermierz,SGoblinJezdziec,SGoblinSkrytobojca,SGoblinLucznik >0 1
+OgnisteBombardowanie:
+  Cooldown: 40
+  Conditions:
+  - playerwithin 60
+  Skills:
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+WielkiWybuch:
+  Cooldown: 100
+  Conditions:
+  - playerwithin 30
+  Skills:
+  - msg 30:'5' >0 1
+  - delay 100
+  - msg 30:'4' >0 1
+  - delay 100
+  - msg 30:'3' >0 1
+  - delay 100
+  - msg 30:'2' >0 1
+  - delay 100
+  - msg 30:'1' >0 1
+  - delay 100
+  - msg 30:'&kasdas &r&6&lWielki Wybuch! &r&kadasd' >0 1
+  - shootfireball 10:true:100:true >0 1
