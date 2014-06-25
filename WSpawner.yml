@@ -4,6 +4,28 @@ RZombieWojownik:
   Chance: 0.5
   Priority: 3
   Conditions:
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
   - outside true
   - lightlevel 0-6
   - inblock air
@@ -20,6 +42,28 @@ RZombieMnich:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 RSzkieletLowca:
   Mobname: SzkieletLowca
   Worlds: OldRPG
@@ -30,6 +74,28 @@ RSzkieletLowca:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 RSzkieletWojownik:
   Mobname: SzkieletWojownik
   Worlds: OldRPG
@@ -40,6 +106,28 @@ RSzkieletWojownik:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 RSzkieletMnich:
   Mobname: SzkieletMnich
   Worlds: OldRPG
@@ -50,6 +138,28 @@ RSzkieletMnich:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 GoblinSzermierz:
   Mobname: SzkieletMnich
   Worlds: OldRPG
@@ -61,6 +171,28 @@ GoblinSzermierz:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 GoblinSkrytobojca:
   Mobname: SzkieletMnich
   Worlds: OldRPG
@@ -72,6 +204,28 @@ GoblinSkrytobojca:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 GoblinLucznik:
   Mobname: SzkieletMnich
   Worlds: OldRPG
@@ -83,6 +237,28 @@ GoblinLucznik:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 GoblinJezdziec:
   Mobname: SzkieletMnich
   Worlds: OldRPG
@@ -94,6 +270,28 @@ GoblinJezdziec:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 GoblinWojownik:
   Mobname: SzkieletMnich
   Worlds: OldRPG
@@ -105,6 +303,28 @@ GoblinWojownik:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
 PajakBagienny:
   Mobname: PajakBagienny
   Worlds: OldRPG
@@ -203,3 +423,25 @@ Nietoperz:
   - inblock air
   - mobsinchunk 25
   - playerwithin 15
+  - biome BEACH
+  - biome DESERT
+  - biome DESERT_HILLS
+  - biome EXTREME_HILLS
+  - biome FOREST
+  - biome FOREST_HILLS
+  - biome FROZEN_OCEAN
+  - biome FROZEN_RIVER
+  - biome HELL
+  - biome ICE_MOUNTAINS
+  - biome ICE_PLAINS
+  - biome JUNGLE
+  - biome JUNGLE_HILLS
+  - biome MUSHROOM_ISLAND
+  - biome MUSHROOM_SHORE
+  - biome PLAINS
+  - biome RIVER
+  - biome SKY
+  - biome SMALL_MOUNTAINS
+  - biome SWAMPLAND
+  - biome TAIGA
+  - biome TAIGA_HILLS
