@@ -23,7 +23,7 @@ WyszczerbionyMiecz:
 ZardzewialySztylet:
   Id: 262
   Data: 0
-  Display: 'Zardzewiały Sztylet'
+  Display: 'Zardzewialy Sztylet'
   Lore:
   - 'Stary sztylet pokryty rudym osadem'
   - DAMAGE_ALL:4
@@ -31,47 +31,66 @@ ZardzewialySztylet:
 StaryLuk:
   Id: 261
   Data: 0
-  Display: 'Stary Łuk'
+  Display: 'Stary Luk'
   Lore:
-  - 'Stary, spruchniały łuk.'
+  - 'StaryLuk'
   
 GoblinieMieso:
   Id: 367
   Data: 0
-  Display: 'Goblinie Mięso'
+  Display: 'Goblinie Mieso'
   Lore:
-  - 'Ten kawałek śmierdzącego mięsa'
-  - 'nie wygląda na zbyt smaczny...'
+  - 'Ten kawalek smierdzacego miesa'
+  - 'nie wyglada na zbyt smaczny...'
 
 GoblinskiTopor:
   Id: 275
   Data: 0
-  Display: 'Gobliński Topór'
+  Display: 'Goblinski Topor'
   
 SkorzanaZbroja:
   Id: 299
-  Display: 'Skórzana Zbroja'
+  Display: 'Skorzana Zbroja'
   
 SkorzaneSpodnie:
   Id: 300
-  Display: 'Skórzane Spodnie'
+  Display: 'Skorzane Spodnie'
   
 SkorzaneButy:
   Id: 301
-  Display: 'SkórzaneButy'
+  Display: 'Skorzane Buty'
   
 SkorzanaCzapka:
   Id: 298
-  Display: 'Skórzana Czapka'
+  Display: 'Skorzana Czapka'
 
 GlowaKrowy:
   Id: 397
   Data: 3
   Display: 'Glowa Krowy'
   Options:
-    Player: viv0
+    Player:viv0
 KR100:
   Id: 298
   Display: 'Knockback resistance 100%'
   Options:
     KnockbackResistance: 1
+Snowball:
+  Id: 332
+  Display: 'Sniezka'
+MieczLideraGoblinow:
+  Id: 267
+  Display: 'Miecz Lidera Goblinow'
+HelmKolczy:
+  Id: 302
+  Display: 'Helm Kolczy'
+ZbrojaKolcza:
+  Id: 303
+  Display: 'Zbroja Kolcza'
+SpodnieKolcze:
+  Id: 304
+  Display: 'Spodnie Kolcze'
+ButyKolcze:
+  Id: 305
+  Display: 'Buty Kolcze'
+  
