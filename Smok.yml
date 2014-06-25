@@ -4,8 +4,8 @@ Smok:
   Damage: 15
   Health: 300
   Skills:
-  - skill FusRoDach ~onTimer:200 0.5
-  - skill OgnisteBombardowanie ~onTimer:200 0.2
-  - skill WielkiWybuch ~onTimer:200 0.1
+  - skill FusRoDach ~onTimer:600 0.5
+  - skill OgnisteBombardowanie ~onTimer:600 0.2
+  - skill WielkiWybuch ~onTimer:600 0.1
   Options:
     Disguise: enderdragon

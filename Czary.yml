@@ -11,15 +11,11 @@ SilnyPajeczyJad:
   Skills:
   - potion 0:POISON:100:3 >0 1
 RzutKamieniem:
-  Cooldown: 3
   Conditions:
-  - targetwithin 10
-  - targetdistance 5-10
+  - targetwithin 30
   - targetinlineofsight true
   Skills:
-  - potionself SLOW:300:7 >0 1
-  - delay 3
-  - shootprojectile snowball:4:1:20 >0 1
+  - shootprojectile arrow:10:1:20
   - effect boss sound mob.ghast.fireball:1:1 >0 1
 Wyklucie:
   Cooldown: 0

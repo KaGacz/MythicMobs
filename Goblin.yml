@@ -174,14 +174,16 @@ Tytan:
     Disguise: irongolem
     PreventOtherDrops: true
 Test:
-  Mobtype: zombie
+  Mobtype: skeleton
   Display: '&lObiekt Testowy'
   Health: 100
   Damage: 5
   Equipment:
+  - StaryLuk:0
   - GoblinieMieso:4
   Skills:
-  - skill Ogien ~onDamaged 1
+  - skill Ogien ~onTimer:10
   Options:
-    MovementSpeed: 0.2
+    Disguise: endercrystal
+    MovementSpeed: 0.01
     KnockbackResistance: 1
