@@ -34,7 +34,7 @@ RZombieWojownik:
 RZombieMnich:
   MobName: ZombieMnich
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 3
   Conditions:
   - outside true
@@ -67,7 +67,7 @@ RZombieMnich:
 RSzkieletLowca:
   Mobname: SzkieletLowca
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 2
   Conditions:
   - outside false
@@ -99,7 +99,7 @@ RSzkieletLowca:
 RSzkieletWojownik:
   Mobname: SzkieletWojownik
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 2
   Conditions:
   - outside false
@@ -131,7 +131,7 @@ RSzkieletWojownik:
 RSzkieletMnich:
   Mobname: SzkieletMnich
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 2
   Conditions:
   - outside false
@@ -163,7 +163,7 @@ RSzkieletMnich:
 GoblinSzermierz:
   Mobname: SzkieletMnich
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -196,7 +196,7 @@ GoblinSzermierz:
 GoblinSkrytobojca:
   Mobname: SzkieletMnich
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -229,7 +229,7 @@ GoblinSkrytobojca:
 GoblinLucznik:
   Mobname: SzkieletMnich
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -262,7 +262,7 @@ GoblinLucznik:
 GoblinJezdziec:
   Mobname: SzkieletMnich
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -295,7 +295,7 @@ GoblinJezdziec:
 GoblinWojownik:
   Mobname: SzkieletMnich
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -328,7 +328,7 @@ GoblinWojownik:
 PajakBagienny:
   Mobname: PajakBagienny
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Prority: 3
   Conditions:
   - biome swampland
@@ -339,7 +339,7 @@ PajakBagienny:
 MlodyPajakBagienny:
   Mobname: MlodyPajakBagienny
   Worlds: OldRPG
-  Chance: 0.1
+  Chance: 1
   Priority: 1
   Conditions:
   - biome swampland
@@ -350,7 +350,7 @@ MlodyPajakBagienny:
 DuzyPajakBagienny:
   Mobname: DuzyPajakBagienny
   Worlds: OldRPG
-  Chance: 0.4
+  Chance: 1
   Priority: 2
   Conditions:
   - biome swampland
@@ -361,7 +361,7 @@ DuzyPajakBagienny:
 PajakPustynny:
   Mobname: PajakPustynny
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - biome desert
@@ -373,7 +373,7 @@ PajakPustynny:
 MlodyPajakPustynny:
   Mobname: MlodyPajakPustynny
   Worlds: OldRPG
-  Chance: 0.3
+  Chance: 1
   Priority: 2
   Conditions:
   - biome desert
