@@ -1,447 +1,195 @@
 RZombieWojownik:
   Mobname: SzkieletWojownik
-  Worlds: OldRPG
+  Worlds: world3
   Chance: 0.5
   Priority: 3
   Conditions:
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
   - outside true
   - lightlevel 0-6
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RZombieMnich:
   MobName: ZombieMnich
-  Worlds: OldRPG
-  Chance: 1
+  Worlds: world3
+  Chance: 0.5
   Priority: 3
   Conditions:
   - outside true
   - lightlevel 0-6
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RSzkieletLowca:
   Mobname: SzkieletLowca
-  Worlds: OldRPG
-  Chance: 1
+  Worlds: world3
+  Chance: 0.5
   Priority: 2
   Conditions:
   - outside false
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RSzkieletWojownik:
   Mobname: SzkieletWojownik
-  Worlds: OldRPG
-  Chance: 1
+  Worlds: world3
+  Chance: 0.5
   Priority: 2
   Conditions:
   - outside false
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RSzkieletMnich:
   Mobname: SzkieletMnich
-  Worlds: OldRPG
-  Chance: 1
+  Worlds: world3
+  Chance: 0.5
   Priority: 2
   Conditions:
   - outside false
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinSzermierz:
-  Mobname: SzkieletMnich
-  Worlds: OldRPG
-  Chance: 1
+  Mobname: GoblinSzermierz
+  Worlds: world3
+  Chance: 0.4
   Priority: 1
   Conditions:
   - outside true
-  - lightlevel 6-15
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinSkrytobojca:
-  Mobname: SzkieletMnich
-  Worlds: OldRPG
-  Chance: 1
+  Mobname: GoblinSkrytobojca
+  Worlds: world3
+  Chance: 0.5
   Priority: 1
   Conditions:
   - outside true
-  - lightlevel 6-15
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinLucznik:
-  Mobname: SzkieletMnich
-  Worlds: OldRPG
-  Chance: 1
+  Mobname: GoblinLucznik
+  Worlds: world3
+  Chance: 0.5
   Priority: 1
   Conditions:
   - outside true
-  - lightlevel 6-15
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinJezdziec:
-  Mobname: SzkieletMnich
-  Worlds: OldRPG
-  Chance: 1
+  Mobname: GoblinJezdziec
+  Worlds: world3
+  Chance: 0.5
   Priority: 1
   Conditions:
   - outside true
-  - lightlevel 6-15
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinWojownik:
-  Mobname: SzkieletMnich
-  Worlds: OldRPG
-  Chance: 1
+  Mobname: GoblinWojownik
+  Worlds: world3
+  Chance: 0.4
   Priority: 1
   Conditions:
   - outside true
-  - lightlevel 6-15
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 PajakBagienny:
   Mobname: PajakBagienny
-  Worlds: OldRPG
-  Chance: 1
+  Worlds: world3
+  Chance: 0.5
   Prority: 3
   Conditions:
   - biome swampland
   - outside true
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
+  - mobsinchunk <30
+  - playerwithin 30
 MlodyPajakBagienny:
   Mobname: MlodyPajakBagienny
-  Worlds: OldRPG
-  Chance: 1
-  Priority: 1
-  Conditions:
-  - biome swampland
-  - outside true
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-DuzyPajakBagienny:
-  Mobname: DuzyPajakBagienny
-  Worlds: OldRPG
-  Chance: 1
-  Priority: 2
-  Conditions:
-  - biome swampland
-  - outside true
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-PajakPustynny:
-  Mobname: PajakPustynny
-  Worlds: OldRPG
-  Chance: 1
-  Priority: 1
-  Conditions:
-  - biome desert
-  - biome deserthills
-  - outside true
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-MlodyPajakPustynny:
-  Mobname: MlodyPajakPustynny
-  Worlds: OldRPG
-  Chance: 1
-  Priority: 2
-  Conditions:
-  - biome desert
-  - biome deserthills
-  - outside true
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-PajakJaskiniowy:
-  Mobname: PajakJaskiniowy
-  Worlds: OldRPG
+  Worlds: world3
   Chance: 0.5
   Priority: 1
   Conditions:
+  - biome swampland
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+DuzyPajakBagienny:
+  Mobname: DuzyPajakBagienny
+  Worlds: world3
+  Chance: 0.5
+  Priority: 2
+  Conditions:
+  - biome swampland
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+PajakPustynny:
+  Mobname: PajakPustynny
+  Worlds: world3
+  Chance: 0.5
+  Priority: 1
+  Conditions:
+  - biome desert,deserthills
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+MlodyPajakPustynny:
+  Mobname: MlodyPajakPustynny
+  Worlds: world3
+  Chance: 0.5
+  Priority: 2
+  Conditions:
+  - biome desert,biome deserthills
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+PajakJaskiniowy:
+  Mobname: PajakJaskiniowy
+  Worlds: world3
+  Chance: 0.2
+  Priority: 1
+  Conditions:
   - outside false
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
+  - mobsinchunk <10
+  - playerwithin 30
 MlodyPajakJaskiniowy:
   Mobname: MlodyPajakJaskiniowy
-  Worlds: OldRPG
-  Chance: 0.3
-  Priority: 1
+  Worlds: world3
+  Chance: 0.2
+  Priority: 2
   Conditions:
   - outside false
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
+  - mobsinchunk <10
+  - playerwithin 30
 CzarnaWdowa:
   Mobname: CzarnaWdowa
-  Worlds: OldRPG
+  Worlds: world3
   Chance: 0.07
-  Priority: 1
+  Priority: 3
   Conditions:
   - outside false
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
+  - mobsinchunk <10
+  - playerwithin 30
   - height 0-15
 Nietoperz:
   Mobname: Nietoperz
-  Worlds: OldRPG
+  Worlds: world3
   Chance: 0.1
-  Priority: 5
+  Priority: 2
   Conditions:
   - outside false
-  - inblock air
-  - mobsinchunk 25
-  - playerwithin 15
-  - biome BEACH
-  - biome DESERT
-  - biome DESERT_HILLS
-  - biome EXTREME_HILLS
-  - biome FOREST
-  - biome FOREST_HILLS
-  - biome FROZEN_OCEAN
-  - biome FROZEN_RIVER
-  - biome HELL
-  - biome ICE_MOUNTAINS
-  - biome ICE_PLAINS
-  - biome JUNGLE
-  - biome JUNGLE_HILLS
-  - biome MUSHROOM_ISLAND
-  - biome MUSHROOM_SHORE
-  - biome PLAINS
-  - biome RIVER
-  - biome SKY
-  - biome SMALL_MOUNTAINS
-  - biome SWAMPLAND
-  - biome TAIGA
-  - biome TAIGA_HILLS
+  - playerwithin 30
+  - mobsinchunk <10
+  - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
