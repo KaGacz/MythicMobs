@@ -46,7 +46,7 @@ RSzkieletWojownik:
   Priority: 2
   Options:
     SpawnMethod: replace
-Conditions:
+  Conditions:
   - mobtype skeleton
   - outside false
   - playerwithin 30
