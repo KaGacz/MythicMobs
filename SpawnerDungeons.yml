@@ -1,12 +1,11 @@
 RZombieWojownik:
-  Mobname: SzkieletWojownik
+  Mobname: ZombieWojownik
   Worlds: Dungeons
   Chance: 1
   Priority: 1
-  Options:
-    SpawnMethod: replace
+  SpawnMethod: replace
   Conditions:
-  - mobtype skeleton
+  - mobtype zombie
   - outside true
   - lightlevel 0-6
   - playerwithin 30
@@ -16,8 +15,7 @@ RSzkieletLowca:
   Worlds: Dungeons
   Chance: 1
   Priority: 1
-  Options:
-    SpawnMethod: replace
+  SpawnMethod: replace
   Conditions:
   - mobtype skeleton
   - outside false
@@ -26,8 +24,7 @@ RSzkieletLowca:
 RSzkieletWojownik:
   Mobname: SzkieletWojownik
   Worlds: Dungeons
-  Options:
-    SpawnMethod: replace
+  SpawnMethod: replace
   Chance: 1
   Priority: 1
   Conditions:
