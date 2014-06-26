@@ -1,0 +1,199 @@
+RZombieWojownik:
+  Mobname: SzkieletWojownik
+  Worlds: Dungeons
+  Chance: 1
+  Priority: 3
+  Options:
+    SpawnMethod: replace
+  Conditions:
+  - mobtype skeleton
+  - outside true
+  - lightlevel 0-6
+  - playerwithin 30
+  - mobsinchunk <30
+RZombieMnich:
+  MobName: ZombieMnich
+  Worlds: Dungeons
+  Chance: 1
+  Priority: 3
+  Options:
+    SpawnMethod: replace
+  Conditions:
+  - mobtype zombie
+  - outside true
+  - lightlevel 0-6
+  - playerwithin 30
+  - mobsinchunk <30
+RSzkieletLowca:
+  Mobname: SzkieletLowca
+  Worlds: Dungeons
+  Chance: 1
+  Priority: 2
+  Options:
+    SpawnMethod: replace
+  Conditions:
+  - mobtype skeleton
+  - outside false
+  - playerwithin 30
+  - mobsinchunk <30
+RSzkieletWojownik:
+  Mobname: SzkieletWojownik
+  Worlds: Dungeons
+  Options:
+    SpawnMethod: replace
+  Chance: 1
+  Priority: 2
+ Conditions:
+  - mobtype skeleton
+  - outside false
+  - playerwithin 30
+  - mobsinchunk <30
+RSzkieletMnich:
+  Mobname: SzkieletMnich
+  Worlds: Dungeons
+  Chance: 1
+  Priority: 2
+  Options:
+    SpawnMethod: replace
+  Conditions:
+  - mobtype skeleton
+  - outside false
+  - playerwithin 30
+  - mobsinchunk <30
+GoblinSzermierz:
+  Mobname: GoblinSzermierz
+  Worlds: Dungeons
+  Chance: 0.4
+  Priority: 1
+  Conditions:
+  - outside true
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+GoblinSkrytobojca:
+  Mobname: GoblinSkrytobojca
+  Worlds: Dungeons
+  Chance: 0.5
+  Priority: 1
+  Conditions:
+  - outside true
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+GoblinLucznik:
+  Mobname: GoblinLucznik
+  Worlds: Dungeons
+  Chance: 0.5
+  Priority: 1
+  Conditions:
+  - outside true
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+GoblinJezdziec:
+  Mobname: GoblinJezdziec
+  Worlds: Dungeons
+  Chance: 0.5
+  Priority: 1
+  Conditions:
+  - outside true
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+GoblinWojownik:
+  Mobname: GoblinWojownik
+  Worlds: Dungeons
+  Chance: 0.4
+  Priority: 1
+  Conditions:
+  - outside true
+  - lightlevelabove 6
+  - playerwithin 30
+  - mobsinchunk <30
+PajakBagienny:
+  Mobname: PajakBagienny
+  Worlds: Dungeons
+  Chance: 0.5
+  Prority: 3
+  Conditions:
+  - biome swampland
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+MlodyPajakBagienny:
+  Mobname: MlodyPajakBagienny
+  Worlds: Dungeons
+  Chance: 0.5
+  Priority: 1
+  Conditions:
+  - biome swampland
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+DuzyPajakBagienny:
+  Mobname: DuzyPajakBagienny
+  Worlds: Dungeons
+  Chance: 0.5
+  Priority: 2
+  Conditions:
+  - biome swampland
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+PajakPustynny:
+  Mobname: PajakPustynny
+  Worlds: Dungeons
+  Chance: 0.5
+  Priority: 1
+  Conditions:
+  - biome desert,deserthills
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+MlodyPajakPustynny:
+  Mobname: MlodyPajakPustynny
+  Worlds: Dungeons
+  Chance: 0.5
+  Priority: 2
+  Conditions:
+  - biome desert,biome deserthills
+  - outside true
+  - mobsinchunk <30
+  - playerwithin 30
+PajakJaskiniowy:
+  Mobname: PajakJaskiniowy
+  Worlds: Dungeons
+  Chance: 0.2
+  Priority: 1
+  Conditions:
+  - outside false
+  - mobsinchunk <10
+  - playerwithin 30
+MlodyPajakJaskiniowy:
+  Mobname: MlodyPajakJaskiniowy
+  Worlds: Dungeons
+  Chance: 0.2
+  Priority: 2
+  Conditions:
+  - outside false
+  - mobsinchunk <10
+  - playerwithin 30
+CzarnaWdowa:
+  Mobname: CzarnaWdowa
+  Worlds: Dungeons
+  Chance: 0.07
+  Priority: 3
+  Conditions:
+  - outside false
+  - mobsinchunk <10
+  - playerwithin 30
+  - height 0-15
+Nietoperz:
+  Mobname: Nietoperz
+  Worlds: Dungeons
+  Chance: 0.1
+  Priority: 2
+  Conditions:
+  - outside false
+  - playerwithin 30
+  - mobsinchunk <10
