@@ -43,7 +43,7 @@ RSzkieletWojownik:
     SpawnMethod: replace
   Chance: 1
   Priority: 2
- Conditions:
+  Conditions:
   - mobtype skeleton
   - outside false
   - playerwithin 30
