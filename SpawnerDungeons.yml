@@ -2,7 +2,7 @@ RZombieWojownik:
   Mobname: SzkieletWojownik
   Worlds: Dungeons
   Chance: 1
-  Priority: 3
+  Priority: 1
   Options:
     SpawnMethod: replace
   Conditions:
@@ -15,7 +15,7 @@ RZombieMnich:
   MobName: ZombieMnich
   Worlds: Dungeons
   Chance: 1
-  Priority: 3
+  Priority: 1
   Options:
     SpawnMethod: replace
   Conditions:
@@ -28,7 +28,7 @@ RSzkieletLowca:
   Mobname: SzkieletLowca
   Worlds: Dungeons
   Chance: 1
-  Priority: 2
+  Priority: 1
   Options:
     SpawnMethod: replace
   Conditions:
@@ -42,7 +42,7 @@ RSzkieletWojownik:
   Options:
     SpawnMethod: replace
   Chance: 1
-  Priority: 2
+  Priority: 1
   Conditions:
   - mobtype skeleton
   - outside false
@@ -52,7 +52,7 @@ RSzkieletMnich:
   Mobname: SzkieletMnich
   Worlds: Dungeons
   Chance: 1
-  Priority: 2
+  Priority: 1
   Options:
     SpawnMethod: replace
   Conditions:
