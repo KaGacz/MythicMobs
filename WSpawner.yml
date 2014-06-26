@@ -3,7 +3,10 @@ RZombieWojownik:
   Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 3
+  Options:
+    SpawnMethod: replace
   Conditions:
+  - mobtype skeleton
   - outside true
   - lightlevel 0-6
   - playerwithin 30
@@ -14,7 +17,10 @@ RZombieMnich:
   Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 3
+  Options:
+    SpawnMethod: replace
   Conditions:
+  - mobtype zombie
   - outside true
   - lightlevel 0-6
   - playerwithin 30
@@ -25,7 +31,10 @@ RSzkieletLowca:
   Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
+  Options:
+    SpawnMethod: replace
   Conditions:
+  - mobtype skeleton
   - outside false
   - playerwithin 30
   - mobsinchunk <30
@@ -35,7 +44,10 @@ RSzkieletWojownik:
   Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
+  Options:
+    SpawnMethod: replace
   Conditions:
+  - mobtype skeleton
   - outside false
   - playerwithin 30
   - mobsinchunk <30
@@ -45,7 +57,10 @@ RSzkieletMnich:
   Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
+  Options:
+    SpawnMethod: replace
   Conditions:
+  - mobtype skeleton
   - outside false
   - playerwithin 30
   - mobsinchunk <30
