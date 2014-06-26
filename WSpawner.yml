@@ -1,6 +1,6 @@
 RZombieWojownik:
   Mobname: SzkieletWojownik
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 3
   Conditions:
@@ -11,7 +11,7 @@ RZombieWojownik:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RZombieMnich:
   MobName: ZombieMnich
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 3
   Conditions:
@@ -22,7 +22,7 @@ RZombieMnich:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RSzkieletLowca:
   Mobname: SzkieletLowca
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
   Conditions:
@@ -32,7 +32,7 @@ RSzkieletLowca:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RSzkieletWojownik:
   Mobname: SzkieletWojownik
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
   Conditions:
@@ -42,7 +42,7 @@ RSzkieletWojownik:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 RSzkieletMnich:
   Mobname: SzkieletMnich
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
   Conditions:
@@ -52,7 +52,7 @@ RSzkieletMnich:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinSzermierz:
   Mobname: GoblinSzermierz
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.4
   Priority: 1
   Conditions:
@@ -63,7 +63,7 @@ GoblinSzermierz:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinSkrytobojca:
   Mobname: GoblinSkrytobojca
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 1
   Conditions:
@@ -74,7 +74,7 @@ GoblinSkrytobojca:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinLucznik:
   Mobname: GoblinLucznik
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 1
   Conditions:
@@ -85,7 +85,7 @@ GoblinLucznik:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinJezdziec:
   Mobname: GoblinJezdziec
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 1
   Conditions:
@@ -96,7 +96,7 @@ GoblinJezdziec:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 GoblinWojownik:
   Mobname: GoblinWojownik
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.4
   Priority: 1
   Conditions:
@@ -107,7 +107,7 @@ GoblinWojownik:
   - biome BEACH,DESERT,DESERT_HILLS,EXTREME_HILLS,FOREST,FOREST_HILLS,FROZEN_OCEAN,FROZEN_RIVER,HELL,ICE_MOUNTAINS,ICE_PLAINS,JUNGLE,JUNGLE_HILLS,MUSHROOM_ISLAND,MUSHROOM_SHORE,PLAINS,RIVER,SKY,SMALL_MOUNTAINS,SWAMPLAND,TAIGA,TAIGA_HILLS
 PajakBagienny:
   Mobname: PajakBagienny
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Prority: 3
   Conditions:
@@ -117,7 +117,7 @@ PajakBagienny:
   - playerwithin 30
 MlodyPajakBagienny:
   Mobname: MlodyPajakBagienny
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 1
   Conditions:
@@ -127,7 +127,7 @@ MlodyPajakBagienny:
   - playerwithin 30
 DuzyPajakBagienny:
   Mobname: DuzyPajakBagienny
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
   Conditions:
@@ -137,7 +137,7 @@ DuzyPajakBagienny:
   - playerwithin 30
 PajakPustynny:
   Mobname: PajakPustynny
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 1
   Conditions:
@@ -147,7 +147,7 @@ PajakPustynny:
   - playerwithin 30
 MlodyPajakPustynny:
   Mobname: MlodyPajakPustynny
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.5
   Priority: 2
   Conditions:
@@ -157,7 +157,7 @@ MlodyPajakPustynny:
   - playerwithin 30
 PajakJaskiniowy:
   Mobname: PajakJaskiniowy
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.2
   Priority: 1
   Conditions:
@@ -166,7 +166,7 @@ PajakJaskiniowy:
   - playerwithin 30
 MlodyPajakJaskiniowy:
   Mobname: MlodyPajakJaskiniowy
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.2
   Priority: 2
   Conditions:
@@ -175,7 +175,7 @@ MlodyPajakJaskiniowy:
   - playerwithin 30
 CzarnaWdowa:
   Mobname: CzarnaWdowa
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.07
   Priority: 3
   Conditions:
@@ -185,7 +185,7 @@ CzarnaWdowa:
   - height 0-15
 Nietoperz:
   Mobname: Nietoperz
-  Worlds: world3
+  Worlds: OldRPG,Dungeons
   Chance: 0.1
   Priority: 2
   Conditions:
