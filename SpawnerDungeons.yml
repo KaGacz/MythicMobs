@@ -11,19 +11,6 @@ RZombieWojownik:
   - lightlevel 0-6
   - playerwithin 30
   - mobsinchunk <30
-RZombieMnich:
-  MobName: ZombieMnich
-  Worlds: Dungeons
-  Chance: 1
-  Priority: 1
-  Options:
-    SpawnMethod: replace
-  Conditions:
-  - mobtype zombie
-  - outside true
-  - lightlevel 0-6
-  - playerwithin 30
-  - mobsinchunk <30
 RSzkieletLowca:
   Mobname: SzkieletLowca
   Worlds: Dungeons
@@ -43,18 +30,6 @@ RSzkieletWojownik:
     SpawnMethod: replace
   Chance: 1
   Priority: 1
-  Conditions:
-  - mobtype skeleton
-  - outside false
-  - playerwithin 30
-  - mobsinchunk <30
-RSzkieletMnich:
-  Mobname: SzkieletMnich
-  Worlds: Dungeons
-  Chance: 1
-  Priority: 1
-  Options:
-    SpawnMethod: replace
   Conditions:
   - mobtype skeleton
   - outside false
