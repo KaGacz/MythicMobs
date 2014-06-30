@@ -17,12 +17,12 @@ GoblinSzermierz:
     PreventOtherDrops: true
   
 GoblinSkrytobojca:
-  Mobtype: zombie
+  Mobtype: babyzombie
   Display: 'Goblin - &aSkrytobojca'
   Health: 18
   Damage: 6
   Equipment:
-  - ZardzewialySztylet:0
+  - GoblinieMieso:0
   Drops:
   - heroesexp 30 1
   - money 7 1
@@ -98,7 +98,7 @@ GoblinWojownik:
     FollowRange: 10
     PreventOtherDrops: true
 Warg:
-  Mobtype: zombie
+  Mobtype: babyzombie
   Display: 'Warg'
   Health: 15
   Damage: 4
@@ -182,8 +182,43 @@ Test:
   - StaryLuk:0
   - GoblinieMieso:4
   Skills:
-  - skill Ogien ~onTimer:10
+  - skill DeszczMeteorow ~onDamaged 1
   Options:
-    Disguise: endercrystal
     MovementSpeed: 0.01
     KnockbackResistance: 1
+MeteorMob:
+  Mobtype: silverfish
+  Health: 30
+  Damage: 0
+  Options:
+    MovementSpeed: 0
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+  Skills:
+  - potionself DAMAGE_RESISTANCE:60000:15 ~onSpawn
+  - potionself INVISIBILITY:60000:1 ~onSpawn
+  - potionself SLOW:60000:100 ~onSpawn
+  - skill Meteor ~onSpawn
+  DamageModifiers:
+  - CUSTOM 0
+  - PROJECTILE 0
+  - ENTITY_ATTACK 0
+  - WITHER 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - FALL 0
+  - VOID 0
+  - SUICIDE 0
+  - DROWNING 0
+  - LIGHTNING 0
+  - POISON 0
+  - STARVATION 0
+  - MAGIC 0
+  - FALING_BLOCK 0
+  - THORNS 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - SUFFOCATION 0
+  - CONTACT 0
