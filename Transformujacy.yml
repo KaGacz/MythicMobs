@@ -16,11 +16,13 @@ Wampir:
   Equipment:
   - GoblinieMieso:4
   Skills:
-  - skill KradziezZycia <35 1
+  - skill KradziezZycia ~onAttack 0.4
+  - skill DystansowaKradziezZycia <35 0.8
   Drops:
   - heroesexp 60
   - money 20
   Options:
+    MovementSpeed: 0.25
     PreventOtherDrops: true
     AlwaysShowName: false
     Disguise: player:Wampir
