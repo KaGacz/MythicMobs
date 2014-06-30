@@ -15,7 +15,6 @@ GoblinSzermierz:
     FollowRange: 10
     AlwaysShowName: false
     PreventOtherDrops: true
-  
 GoblinSkrytobojca:
   Mobtype: babyzombie
   Display: 'Goblin - &aSkrytobojca'
@@ -33,7 +32,6 @@ GoblinSkrytobojca:
     PreventOtherDrops: true
     FollowRange: 10
     AlwaysShowName: false
-  
 GoblinLucznik:
   Mobtype: skeleton
   Display: 'Goblin - &aLucznik'
@@ -53,7 +51,6 @@ GoblinLucznik:
     PreventOtherDrops: true
     FollowRange: 10
     Disguise: babyzombie
-  
 GoblinJezdziec:
   Riding: Warg
   Mobtype: babyzombie
@@ -75,7 +72,6 @@ GoblinJezdziec:
     AlwaysShowName: false
     FollowRange: 10
     PreventOtherDrops: true
-  
 GoblinWojownik:
   Mobtype: babyzombie
   Display: 'Goblin - &aWojownik'
