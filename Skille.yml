@@ -11,11 +11,12 @@ SilnyPajeczyJad:
   Skills:
   - potion 0:POISON:100:3 >0 1
 RzutKamieniem:
-  Cooldown: 3
   Conditions:
-  - targetwithin 20
+  - targetwithin 30
+  - targetinlineofsight true
   Skills:
-  - shootprojectile snowball:4:1:20 >0 1
+  - shootprojectile arrow:10:1:20
+  - effect boss sound mob.ghast.fireball:1:1 >0 1
 Wyklucie:
   Cooldown: 0
   Conditions:
@@ -45,3 +46,104 @@ KradziezZycia:
   Skills:
   - damage 0:5:true >0 1
   - healself 5 >0 1
+PrzywolanieGoblinObronca:
+  Cooldown: 60
+  Conditions:
+  - offgcd true
+  - playerwithin 20
+  Skills:
+  - msg 30:'Gobliny chronia $boss &runiemozliwiajac zadawanie mu obrazen! Wyeliminuj [Goblin - &aObronca&r] aby zdjac ochrone.' >0 1
+  - summon $GoblinObronca:5:4 >0 1
+OchronaLidera:
+  Cooldown: 1
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - potionmobs 10:DAMAGE_RESISTANCE:100:15 GoblinLider >0 1
+LiderMiecz:
+  Conditions:
+  - wearing StaryLuk:0
+  - playerwithin 2
+  Skills:
+  - equip MieczLideraGoblinow:0 >0 1
+FusRoDach:
+  Cooldown: 30
+  Conditions:
+  - playerwithin 20
+  Skills:
+    - msg 40:'$boss; &5&lFus Ro Dach!' >0 1
+    - throw 20:20:10 >0 1
+SGoblinWojownik:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinWojownik:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinLucznik:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinLucznik:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinSkrytobojca:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinSkrytobojca:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinJezdziec:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinJezdziec:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+SGoblinSzermierz:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 20
+  Skills:
+  - summon $GoblinWojownik:4:5 >0 1
+  - msg 30:'$boss&r; &6&lPowstancie gobliny!' >0 1
+PrzywolanieGoblinow:
+  Cooldown: 40
+  Conditions:
+  - offgcd true
+  - playerwithin 20
+  Skills:
+  - randomskill SGoblinWojownik,SGoblinSzermierz,SGoblinJezdziec,SGoblinSkrytobojca,SGoblinLucznik >0 1
+OgnisteBombardowanie:
+  Cooldown: 40
+  Conditions:
+  - playerwithin 60
+  Skills:
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+  - shootfireball 1:true:100:true >0 1
+  - delay 5
+DystansowaKradziezZycia:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 15
+  Skills:
+  - damage 0:10:true >0 1
+  - healself 10 >0 1
