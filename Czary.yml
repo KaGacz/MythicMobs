@@ -140,20 +140,10 @@ OgnisteBombardowanie:
   - delay 5
   - shootfireball 1:true:100:true >0 1
   - delay 5
-WielkiWybuch:
-  Cooldown: 100
+DystansowaKradziezZycia:
+  Cooldown: 15
   Conditions:
-  - playerwithin 30
+  - playerwithin 15
   Skills:
-  - msg 30:'5' >0 1
-  - delay 100
-  - msg 30:'4' >0 1
-  - delay 100
-  - msg 30:'3' >0 1
-  - delay 100
-  - msg 30:'2' >0 1
-  - delay 100
-  - msg 30:'1' >0 1
-  - delay 100
-  - msg 30:'&kasdas &r&6&lWielki Wybuch! &r&kadasd' >0 1
-  - shootfireball 10:true:100:true >0 1
+  - damage 0:10:true >0 1
+  - healself 10 >0 1
