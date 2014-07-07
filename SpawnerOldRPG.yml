@@ -39,7 +39,7 @@ RSzkieletWojownik:
 GoblinSzermierz:
   Mobname: GoblinSzermierz
   Worlds: OldRPG
-  Chance: 0.4
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -49,7 +49,7 @@ GoblinSzermierz:
 GoblinSkrytobojca:
   Mobname: GoblinSkrytobojca
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -59,7 +59,7 @@ GoblinSkrytobojca:
 GoblinLucznik:
   Mobname: GoblinLucznik
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -69,7 +69,7 @@ GoblinLucznik:
 GoblinJezdziec:
   Mobname: GoblinJezdziec
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -79,7 +79,7 @@ GoblinJezdziec:
 GoblinWojownik:
   Mobname: GoblinWojownik
   Worlds: OldRPG
-  Chance: 0.4
+  Chance: 1
   Priority: 1
   Conditions:
   - outside true
@@ -89,7 +89,7 @@ GoblinWojownik:
 PajakBagienny:
   Mobname: PajakBagienny
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Prority: 3
   Conditions:
   - biome swampland
@@ -99,7 +99,7 @@ PajakBagienny:
 MlodyPajakBagienny:
   Mobname: MlodyPajakBagienny
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - biome swampland
@@ -109,7 +109,7 @@ MlodyPajakBagienny:
 DuzyPajakBagienny:
   Mobname: DuzyPajakBagienny
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 2
   Conditions:
   - biome swampland
@@ -119,7 +119,7 @@ DuzyPajakBagienny:
 PajakPustynny:
   Mobname: PajakPustynny
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 1
   Conditions:
   - biome desert,deserthills
@@ -129,7 +129,7 @@ PajakPustynny:
 MlodyPajakPustynny:
   Mobname: MlodyPajakPustynny
   Worlds: OldRPG
-  Chance: 0.5
+  Chance: 1
   Priority: 2
   Conditions:
   - biome desert,biome deserthills
@@ -139,7 +139,7 @@ MlodyPajakPustynny:
 PajakJaskiniowy:
   Mobname: PajakJaskiniowy
   Worlds: OldRPG
-  Chance: 0.2
+  Chance: 1
   Priority: 1
   Conditions:
   - inside true
@@ -148,7 +148,7 @@ PajakJaskiniowy:
 MlodyPajakJaskiniowy:
   Mobname: MlodyPajakJaskiniowy
   Worlds: OldRPG
-  Chance: 0.2
+  Chance: 1
   Priority: 2
   Conditions:
   - inside true
@@ -157,7 +157,7 @@ MlodyPajakJaskiniowy:
 CzarnaWdowa:
   Mobname: CzarnaWdowa
   Worlds: OldRPG
-  Chance: 0.07
+  Chance: 1
   Priority: 3
   Conditions:
   - inside true
@@ -167,7 +167,7 @@ CzarnaWdowa:
 Nietoperz:
   Mobname: Nietoperz
   Worlds: OldRPG
-  Chance: 0.1
+  Chance: 1
   Priority: 2
   Conditions:
   - outside false
