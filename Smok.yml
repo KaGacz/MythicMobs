@@ -3,9 +3,11 @@ Smok:
   Display: 'Smok'
   Damage: 15
   Health: 300
+  Drops:
+  - heroesexp 130 1
+  - money 65 1
   Skills:
   - skill FusRoDach ~onTimer:600 0.5
   - skill OgnisteBombardowanie ~onTimer:600 0.2
-  - skill WielkiWybuch ~onTimer:600 0.1
   Options:
     Disguise: enderdragon
